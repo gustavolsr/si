@@ -1,0 +1,18 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="apostila, html, curso">
+    <meta name="description" content="Aprenda HTML em poucos minutos e comece a criar os seus
+    próprios sites;">
+    <meta name="autho" content="Gustavo Leite Siqueira Ramos">
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="refresh" content="2,pagina2.html">
+    <title>Apostila de HTML</title>
+</head>
+
+<body>
+    Gustavo Leite Siqueira Ramos
+</body>
+
+</html>
