@@ -1,61 +1,60 @@
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Formulário</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
-    <form> 
-        <b style="font-size: 20;">Cadastro de clientes</b><br><br>
+    <form>
+        <b style="font-size: 30;">Cadastro de clientes</b><br><br>
         <b style="color: red;">Todos os campos são de preenchimento obrigatório</b><br><br>
 
-        <fieldset> 
-            <legend>Dados pessoais</legend> 
+        <fieldset>
+            <legend>Dados pessoais</legend>
 
             <label for="nome">Nome:</label><br>
-            <input id="nome" type="text"required><br><br>
-    
+            <input id="nome" type="text" placeholder="Nome completo" required><br><br>
+
             <label for="data">Data de nascimento:</label><br>
-            <input id="data" type="date"required><br><br>
+            <input id="data" type="date" required><br><br>
 
             <label for="sexo">Sexo:</label><br>
             <input type="radio" id="sexo" name="sexo" required>
             <label for="sexo">Masculino</label>
             <input type="radio" id="sexo" name="sexo" required>
             <label for="sexo">Feminino</label><br><br>
-            
+
         </fieldset><br>
-    
-        <fieldset> 
-            <legend>Informações de contato</legend> 
+
+        <fieldset>
+            <legend>Informações de contato</legend>
 
             <label for="email">Email:</label><br>
-            <input id="email" type="email"required><br><br>
-    
-            <label for="telefone">Telefone celular:</label><br>
-            <input id="telefone" type="tel" maxlength="9"
-            placeholder="Apenas números (máx: 9)" required><br><br>
+            <input id="email" type="email" required><br><br>
 
-            <label for="website">Website pessoal:</label><br>
-            <input id="website" type="url"required><br><br>
+            <label for="telefone">Telefone celular:</label><br>
+            <input id="telefone" type="tel" maxlength="9" placeholder="Apenas números (máx: 9)" required><br><br>
+
+            <label for="website">Website pessoal/profissional:</label><br>
+            <input id="website" type="url" required><br><br>
 
         </fieldset><br>
-                
-        <fieldset> 
-            <legend>Localização</legend> 
+
+        <fieldset>
+            <legend>Localização</legend>
 
             <label for="endereco">Endereço:</label><br>
-            <input id="endereco" type="text"required><br><br>
-    
+            <input id="endereco" type="text" required><br><br>
+
             <label for="numero">Número:</label><br>
-            <input id="numero" type="number" min="1" max="9999" required><br><br>
+            <input id="numero" type="number" min="1" max="9999" placeholder="(Valor entre 1 e 9999)"
+                style="width: 152px;" required><br><br>
 
-            <label for="cidade">Cidade:</label><br>
-            <input id="cidade" type="text"required><br><br>
-
-            <label for="estados">Estados:</label><br>
-            <select id="estados" required>
-                <option value="Selecione">Selecione</option>
+            <label for="estados">Estado:</label><br>
+            <select id="estados" name="estado" required>
+                <option value="">Selecione</option>
                 <option value="AC">Acre</option>
                 <option value="AL">Alagoas</option>
                 <option value="AP">Amapá</option>
@@ -88,8 +87,9 @@
         </fieldset><br>
 
         <input type="submit" value="Cadastrar">
-        <input type="reset" value="Limpar">            
+        <input type="reset" value="Limpar">
 
-        </form>
+    </form>
 </body>
+
 </html>
